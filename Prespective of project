@@ -1,0 +1,18 @@
+Recommandations pour améliorer le projet
+Ajouts techniques recommandés
+1. BloodHound + SharpHound
+ Cartographie visuelle des chemins d'attaque AD. Très impressionnant visuellement pour une démo et un rapport.
+2. Responder (LLMNR Poisoning)
+ Attaque réseau réaliste, facile à simuler depuis Kali, génère des events Sysmon 3 détectables par Wazuh. Technique T1557.
+3. Velociraptor (Digital Forensics)
+ Alternatif ou complément à TheHive pour la réponse sur incident. S'intègre bien avec Wazuh et tourne sur RedHat.
+4. Règles Wazuh custom
+ Créer tes propres règles XML pour détecter des patterns spécifiques à ton lab — montre que tu comprends la logique de détection au-delà des règles par défaut.
+5. Snapshots VMware planifiés
+ Avant chaque phase d'attaque, snapshot de toutes les VMs. Indispensable pour la reproductibilité des démos.
+
+Idées pour enrichir le rapport
+Kill Chain diagram pour chaque scénario d'attaque (Reconnaissance → Exploitation → Lateral Movement → Exfiltration)
+Comparaison avant/après : montrer les logs sans Sysmon vs avec Sysmon
+Métriques SOC : MTTD (Mean Time To Detect), MTTR (Mean Time To Respond) — même simulées, elles montrent une maturité SOC
+
