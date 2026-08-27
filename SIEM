@@ -1,1 +1,19 @@
-SIEM 
+SIEM
+
+SIEM (Security Information and Event Management) — en français « gestion des informations et des événements de sécurité » — est une solution centralisée qui collecte, corrèle et analyse les journaux (logs) et événements provenant de sources variées : pare-feu, serveurs, postes de travail, applications, équipements réseau, systèmes de détection/prévention d'intrusion, etc.
+
+Principales fonctionnalités :
+- Collecte et centralisation des logs
+- Normalisation et corrélation des événements pour identifier des patterns suspects
+- Détection et génération d'alertes en temps réel
+- Recherche et analyse forensique pour l'investigation d'incidents
+- Conservation des données et génération de rapports pour la conformité réglementaire
+- Tableaux de bord et visualisation des tendances de sécurité
+
+Bénéfices :
+- Amélioration de la visibilité sur la sécurité de l'infrastructure
+- Détection plus rapide des incidents et réduction du temps de réponse
+- Aide à la conformité (audits, rétention des logs)
+- Priorisation des menaces grâce à la corrélation d'événements
+
+Un SIEM peut être intégré à des outils de détection (EDR, IDS), à des solutions SOAR pour l'orchestration et l'automatisation des réponses, et complété par des règles et analyses spécifiques à l'environnement de l'organisation.
